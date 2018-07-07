@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  root 'dashboards#one'
   get 'dashboards/one'
   get 'dashboards/two'
   get 'dashboards/three'
